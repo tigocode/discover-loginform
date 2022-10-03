@@ -128,7 +128,8 @@ label {
   color: #FFC632;
 }
 .help-form {
-  width: 385px;
+  position: relative;
+  width: 339px;
   height: 22px;
   margin-left: 119px;
   margin-top:20px;
@@ -142,22 +143,17 @@ label {
   opacity: 0;
   cursor: pointer;
 }
-.ckeckmark::after {
+.ckeckmark {
   cursor: pointer;
-  position: absolute;
-  content: '';
-  width: 20px;
-  height:20px;
+  width: 21px;
+  height:21px;
 
   background-color: #24221F;
   border: 1px solid #868686;
   border-radius: 4px;
 }
-.help-form input:checked ~ .ckeckmark::after {
-  position: absolute;
+.help-form input:checked ~ .ckeckmark {
   content: url(./src/assets/check.svg);
-  width: 20px;
-  height:20px;
 
   background-color: #FFC632;
   border: 2px solid #FFC632;
@@ -167,7 +163,7 @@ label {
   position: relative;
   width: 81px;
   height: 19px;
-  margin-left: -50px;
+  margin: 0;
 
   cursor: pointer;
   font-family: 'Roboto';
