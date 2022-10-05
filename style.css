@@ -50,8 +50,8 @@ header {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
 
   color: #D4CCB6;
 }
@@ -59,13 +59,13 @@ header {
   width: 334px;
   height: 23px;
   margin-top: 5px;
-  margin-left: 2px;
+  margin-left: 0.125rem;
 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 
   color: #AFB6C2;
 }
@@ -74,12 +74,11 @@ label {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 
   color: #AFB6C2;
 }
-
 .group-input {
   width: 335px;
   height: 44px;
@@ -128,7 +127,6 @@ label {
   color: #FFC632;
 }
 .help-form {
-  position: relative;
   width: 339px;
   height: 22px;
   margin-left: 119px;
@@ -234,4 +232,85 @@ span {
   width: 635px;
   height: 900px;
   margin-left: 210px;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 768px;
+    height: 100%;
+  }
+  .login {
+    margin: 194px -100px;
+  }
+  .image {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    width: 768px;
+    height: 988px;
+  }
+  .login {
+    margin: 194px -100px;
+  }
+  .image {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    width: 768px;
+    height: 1115px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .lg {
+   
+  }
+  .login {
+    width: 768px;
+    height: 1115px;
+    margin: 0;
+    background: none;
+  }
+  header {
+   
+  }.login header h1 {
+    
+  }
+  .login header p {    
+    
+  }
+  label {
+   
+  }
+  form {
+
+  }
+  .group-input {
+    
+  }
+  .help-form {
+   
+  }.help-form label {
+   
+  }
+  .help-form a {
+    
+  }
+  button {
+   
+  }
+  span {
+    
+  }
+  .reset {
+   
+  }
+  .reset a {
+    
+  }
+  .image {
+    display: none;
+  }
 }
